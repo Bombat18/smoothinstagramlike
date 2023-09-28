@@ -1,0 +1,136 @@
+div #tom {
+
+    border-radius: 4px;
+
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
+}
+
+#love {
+    font-size: 100px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+div .ri-heart-fill {
+    position: absolute;
+    font-size: 60px;
+    color: aliceblue;
+    transform: scale(0);
+    opacity: 0;
+    transition: all ease 0.5s;
+
+}
+
+#profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+
+
+}
+
+#profile {
+    background-color: #ffffff;
+    border-width: 3px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, rgb(255, 0, 0), #ff0482, #ffd500);
+    /* Define gradient */
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.name-contain {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px 0px 0px 14px;
+
+
+}
+
+.name-contain h1 {
+    font-size: 15px;
+    margin: 0;
+
+}
+
+.name-contain p {
+    margin: 0;
+}
+
+@media screen and (min-width: 600px) {
+    div #tom {
+        width: 320px;
+        height: 430px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    div #tom {
+        width: 330px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #main {
+        justify-content: space-evenly;
+    }
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+.left-icon i {
+    font-size: 28px;
+    margin: 0px 5px;
+
+}
+
+.right-icon {
+    font-size: 24px;
+    margin: 0px 5px;
+}
+
+
+
+@media screen and (min-width: 600px) {
+
+    .left-icon,
+    .right-icon {
+        margin: 0px 100px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .left-icon,
+    .right-icon {
+        margin: 0px 100px;
+    }
+
+}
